@@ -35,7 +35,7 @@ class ViewController2: UIViewController {
         nameLabelView2.text = name
         daysLabelView2.text = inst
         
-        //let newDate = days
+        //let newDate = days commit!!!!
         let differenceInDays = Calendar.current.dateComponents([.day], from: days, to: .now).day
         orderLabelView2.text = differenceInDays!.description + " дней"
     }
